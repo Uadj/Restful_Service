@@ -1,6 +1,7 @@
 # Inflearn강의
 ## Restful 서비스 만들기
-Web Service & Web Application
+Web Service & Web Application 강의 목록
+
 Web Service와 Web APplication의 개요
 2분
 Web Service 개발 방법 SOAP과 REST의 이해
