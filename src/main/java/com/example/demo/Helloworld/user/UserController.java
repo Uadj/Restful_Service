@@ -1,4 +1,4 @@
-package com.example.demo.user;
+package com.example.demo.Helloworld.user;
 
 import org.springframework.hateoas.EntityModel;
 import org.springframework.hateoas.server.mvc.WebMvcLinkBuilder;

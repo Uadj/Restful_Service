@@ -1,6 +1,6 @@
 package com.example.demo.exception;
 
-import com.example.demo.user.UserNotFoundException;
+import com.example.demo.Helloworld.user.UserNotFoundException;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
