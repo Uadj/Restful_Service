@@ -1,8 +1,40 @@
-# Inflearn강의
-## Restful 서비스 만들기
-모듈 : web, H2, JPA, Security, Jackson, Validation, Swagger, HATEOAS, Actuator
+# Inflearn강의 Spring Boot로 개발하는 RESTful Service 2022.03.29~2022.03.30  
+## 파일 구조  
+![image](https://user-images.githubusercontent.com/30551889/160680036-f53e3bd1-239b-4ad0-83af-d013cbac7da4.png)  
+## ERD JPA
+USER 
+```
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Integer id;
+    @Size(min=2, message = "Name은 2글자 이상 입력해주세요.")
+    private String name;
+    @Past
+    @ApiModelProperty(notes = "사용자의 등록일을 입력해주세요")
+    private Date joinDate;
+    @ApiModelProperty(notes = "사용자의 패스워드를 입력해주세요")
+    private String password;
+    @ApiModelProperty(notes = "사용자의 주민번호를 입력해주세요")
+    private String ssn;
 
-Spring Boot로 개발하는 RESTful Service 강의 목록
+    @OneToMany(mappedBy = "user")
+    private List<Post> posts;
+```
+Post     
+```
+@Id
+@GeneratedValue
+private Integer id;
+
+private String description;
+
+@ManyToOne(fetch = FetchType.LAZY)
+@JsonIgnore
+private User user;  
+```
+모듈 : web, H2, JPA, Security, Jackson xml, Validation, Swagger, HATEOAS, Actuator, HAL explorer
+
+강의 목록
 
 Web Service와 Web APplication의 개요
 2분  
