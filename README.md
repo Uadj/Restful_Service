@@ -1,5 +1,7 @@
 # Inflearn강의
 ## Restful 서비스 만들기
+모듈 : Jackson, Validation, Swagger, HATEOAS, JPA, Actuator
+
 Spring Boot로 개발하는 RESTful Service 강의 목록
 
 Web Service와 Web APplication의 개요
@@ -39,7 +41,6 @@ Spring의 AOP를 이용한 Exception Handling
 8분  
 RESTful Service 기능 확장  
 ## Section 3 수업 소개
-2분  
 유효성 체크를 위한 Validation API 사용
 12분  
 다국어 처리를 위한 Internationalization 구현 방법
@@ -58,7 +59,6 @@ Request Parameter와 Header를 이용한 API Version 관리
 12분  
 Spring Boot API 사용  
 ## Section 4 수업 소개
-1분  
 Level3 단계의 REST API 구현을 위한 HATEOAS 적용
 13분  
 REST API Documentation을 위한 Swagger 사용
@@ -75,7 +75,6 @@ Configuration 클래스를 이용한 사용자 인증 처리
 8분  
 Java Persistence API 사용
 ## Section 5 수업 소개
-1분  
 Java Persistence API의 개요
 4분  
 JPA를 사용을 위한 Dependency 추가와 설정
@@ -96,7 +95,6 @@ JPA를 이용한 새 게시물 추가 - POST HTTP Method
 8분  
 RESTful API 설계 가이드  
 ## Section 6 수업 소개
-1분 미만  
 Richardson Maturity Model 소개
 4분  
 REST API 설계 시 고려해야 할 사항
