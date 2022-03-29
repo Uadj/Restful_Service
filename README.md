@@ -1,7 +1,9 @@
 # Inflearn강의 Spring Boot로 개발하는 RESTful Service 2022.03.29~2022.03.30  
+## 기능
+User, Post CRUD기능  
 ## 파일 구조  
 ![image](https://user-images.githubusercontent.com/30551889/160680036-f53e3bd1-239b-4ad0-83af-d013cbac7da4.png)  
-## ERD JPA
+## ERD 테이블 JPA 도메인
 USER 
 ```
     @Id
