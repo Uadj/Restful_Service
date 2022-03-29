@@ -1,6 +1,6 @@
 # Inflearn강의
 ## Restful 서비스 만들기
-모듈 : Jackson, Validation, Swagger, HATEOAS, JPA, Actuator
+모듈 : web, Jackson, Validation, Swagger, HATEOAS, Security, JPA, Actuator
 
 Spring Boot로 개발하는 RESTful Service 강의 목록
 
